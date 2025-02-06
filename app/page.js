@@ -24,7 +24,7 @@ const UseStateHook = () => {
       >
        Show Name
       </button>
-      {showName && <p className="mt-4 text-xl text-black">{name}</p>} 
+    <p className="mt-4 text-xl text-black">{name}</p>
 
       <button 
         onClick={handleToggleFriendName} 
@@ -32,7 +32,7 @@ const UseStateHook = () => {
       >
         Show Friend Name
       </button>
-      {showFriendName && <p className="mt-4 text-xl text-black">{friendName}</p>} 
+      <p className="mt-4 text-xl text-black">{friendName}</p>
     </div>
   );
 };
